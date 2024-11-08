@@ -1,29 +1,20 @@
-# vuetodolist
+# TodoList
 
-This template should help get you started developing with Vue 3 in Vite.
+TodoList 是一個用於練習 Vue 3 框架的專案，幫助我更深入理解 Vue 框架，每天持續實作，讓自己輸出最大化，致力於持續進步。學習的路上還有很多要補充，努力成為學以致用的阿祥！
 
-## Recommended IDE Setup
+---
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## 目錄
+- [專案設置](#專案設置)
+- [功能摘要](#功能摘要)
+- [主要技術](#主要技術)
 
-## Customize configuration
+---
 
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
+## 專案設置
 
 ```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
+npm install       # 安裝依賴
+npm run dev       # 啟動開發伺服器
+npm run build     # 專案打包
+npm run lint      # 代碼檢查
