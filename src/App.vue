@@ -1,7 +1,6 @@
 <script setup>
 import { ref } from "vue";
 
-// Define todos array and new todo text as reactive variables
 const todos = ref([
   {
     id: 1,
@@ -12,7 +11,6 @@ const todos = ref([
 
 const text = ref("");
 
-// Function to add a new todo item
 const addTodo = () => {
   if (text.value.trim()) {
     todos.value.push({
@@ -24,7 +22,6 @@ const addTodo = () => {
   }
 };
 
-// Function to toggle completion status of a todo
 const toggleComplete = (id) => {
   const todo = todos.value.find((todo) => todo.id === id);
   if (todo) {
@@ -32,7 +29,6 @@ const toggleComplete = (id) => {
   }
 };
 
-// Function to delete a todo
 const deleteTodo = (id) => {
   todos.value = todos.value.filter((todo) => todo.id !== id);
 };
@@ -84,7 +80,3 @@ const deleteTodo = (id) => {
     </div>
   </div>
 </template>
-
-<style scoped>
-/* Scoped style for additional customization if needed */
-</style>
